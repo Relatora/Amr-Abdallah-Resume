@@ -9,7 +9,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('D:/Dev/Gatsby_Resume/Amr-Resume/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"trackingId":"UA-000000000-1"},
+      options: {"plugins":[],"trackingId":"G-GP8DED3449"},
     },{
       plugin: require('D:/Dev/Gatsby_Resume/Amr-Resume/gatsby-ssr'),
       options: {"plugins":[]},

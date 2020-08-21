@@ -3,7 +3,7 @@ module.exports = [{
       options: {"plugins":[],"name":"Hi! I'm Amr Abdallah!","short_name":"Hi! I'm Amr Abdallah!","start_url":"/Amr-Resume","background_color":"#ffffff","theme_color":"#25303B","display":"minimal-ui","icon":"src/assets/gatsby-icon.png","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"edf3d310d67f8284a562bc3a58c3e761"},
     },{
       plugin: require('../node_modules/gatsby-plugin-google-analytics/gatsby-browser.js'),
-      options: {"plugins":[],"trackingId":"UA-000000000-1"},
+      options: {"plugins":[],"trackingId":"G-GP8DED3449"},
     },{
       plugin: require('../gatsby-browser.js'),
       options: {"plugins":[]},
