@@ -206,13 +206,23 @@ module.exports = {
   portifolio: [
     {
       image: '/images/Everalda_home.png',
-      description: 'Everalda',
+      description: 'Everalda Git',
+      url: 'https://github.com/Relatora/Everalda',
+    },
+    {
+      image: '/images/everalda_closeup.png',
+      description: 'Everalda Website',
       url: 'http://12.42.204.30:7251/index.html',
     },
     {
       image: '/images/ExpoSure_backend_code.png',
       description: 'ExpoSure NodeJS Backend',
       url: 'https://github.com/Relatora/ExpoSure-Backend-NodeJS',
+    },
+    {
+      image: '/images/side_by_side.png',
+      description: 'ExpoSure Android Frontend',
+      url: 'https://github.com/Relatora/ExpoSure-Frontend',
     },
     /* more portifolio items here */
   ],
