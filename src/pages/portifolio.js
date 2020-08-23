@@ -1,9 +1,9 @@
-import React from 'react'
-import styled, { css } from 'styled-components'
-import { Container, Row, Col } from 'react-awesome-styled-grid'
-import siteConfig from '../../data/siteConfig'
-import { withPrefix } from "gatsby"
 import loadable from '@loadable/component'
+import { withPrefix } from "gatsby"
+import React from 'react'
+import { Col, Container, Row } from 'react-awesome-styled-grid'
+import styled, { css } from 'styled-components'
+import siteConfig from '../../data/siteConfig'
 import Hero from '../components/hero'
 import SEO from '../components/SEO'
 import Wrapper from '../components/wrapper'
@@ -31,8 +31,8 @@ const JobCard = styled.a`
   `}
 `
 
-const Portifolio = ({ className, location }) => {
-  const title = "Portifolio"
+const Portfolio = ({ className, location }) => {
+  const title = "Portfolio"
   const { keywords, portifolio } = siteConfig
   return (
     <Layout location={location}>
@@ -71,7 +71,7 @@ const Portifolio = ({ className, location }) => {
   )
 }
 
-export default styled(Portifolio)`
+export default styled(Portfolio)`
   .page-content {
     max-width: 100%;
     margin-bottom: 40px;

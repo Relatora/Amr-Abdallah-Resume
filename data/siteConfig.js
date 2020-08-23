@@ -17,9 +17,9 @@ module.exports = {
   authorName: 'Amr Abdallah',
   twitterUsername: 'relatora',
   githubUsername: 'Relatora',
-  authorAvatar: '/images/avatar.png',
+  authorAvatar: '/images/avatar02.jpg',
   authorDescription: `<p>Developer, passionate about what I do.</p>
- <p>In 2019 I enrolled in a postgraduate degree at Lambton College CSAC program (Computer Software & Database Development) where I learned many skills and implemented what I know in projects affiliated to Lambton research center such as developing a digital signage <strong>HTML/CSS/JS</strong> compiler that takes in a <strong>JSON</strong> string and automatically downloads assets via WebSocket from the web then maps these assets regardless of dimensions or location dynamically to a full page <strong>Electron JS</strong> browser page and all of that ran on a <strong>Raspberry Pi</strong> that can be placed behind any screens for display. </p>
+ <p>In 2019 I enrolled in a postgraduate degree at Lambton College CSAC program (Computer Software & Database Development) where I learned many skills and implemented what I know in projects affiliated to Lambton research center such as developing a digital signage <strong>HTML/CSS/JS</strong> compiler that takes in a <strong>JSON</strong> string and automatically downloads assets via WebSocket from the web then maps these assets regardless of dimensions or location dynamically to a full page <strong>Electron JS</strong> browser page and all of that ran on a <strong>Raspberry Pi</strong> that can be placed behind any screen for display. </p>
  <p>I currently work as a software developer at Avaros EMR for my internship where I’m doing many exciting things such as integrating Twilio SMS in the scheduler backend using <strong>Go Lang and PostgreSQL. </strong> Also worked as part of a team on developing a patient online booking frontend using <strong>ReactJS</strong> developing many components. Furthermore, we worked on troubleshooting and adding functionality to a <strong>Java</strong> based EMR solution.</p>`,
   skills: [
     {
@@ -68,7 +68,7 @@ module.exports = {
     },
     {
       name: 'Git',
-      level: 80,
+      level: 90,
     },
     /* more skills here */
   ],
@@ -85,7 +85,7 @@ module.exports = {
       description: `I am part of the Corporate team, responsible for the development of: <br/>
         <ul>
           <li>
-             Patients schedular backend using Go Lang.
+             Patients scheduling backend using Go Lang.
           </li>
           <li>
              Online booking frontend using React + Webhooks, RxJS & TypeScript
@@ -171,7 +171,7 @@ module.exports = {
       description: `
         <ul>
           <li>
-             SFA (Sales Force Automation): A developer to Sales Force automation solution using Pocket PC as the sales force terminal, MS SQL replication.
+             SFA (Sales Force Automation): A developer for Sales Force automation solution using Pocket PC as the sales force terminal, MS SQL replication.
           </li>
           <li>
              McDonalds Egypt E-Learning Card Slips: Implementing the logic and algorithm of randomizing and categorizing of the E-Learning card slip batches that McDonald's has issued for promotion.
@@ -249,7 +249,7 @@ module.exports = {
       url: '/',
     },
     {
-      label: 'Portifolio',
+      label: 'Portfolio',
       url: '/portifolio',
     },
   ],
