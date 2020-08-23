@@ -153,7 +153,7 @@ module.exports = {
       company: 'Modern Schools of Egypt',
       begin: {
         month: 'sep',
-        year: '2016',
+        year: '2006',
       },
       duration: '10 years',
       occupation: 'ICT Teacher',
@@ -164,7 +164,7 @@ module.exports = {
       company: 'Gulf Network Solutions',
       begin: {
         month: 'sep',
-        year: '2016',
+        year: '2003',
       },
       duration: '3 years',
       occupation: 'Software Developer',
