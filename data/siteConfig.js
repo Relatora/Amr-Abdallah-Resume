@@ -235,7 +235,7 @@ module.exports = {
   siteUrl: 'https://www.linkedin.com/in/amr-samir-abdallah-b199194a/',
   pathPrefix: '/Amr-Resume', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
-  googleAnalyticsId: 'G-GP8DED3449',
+  googleAnalyticsId: 'UA-170106177-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
   fontColor: '#000000cc',
