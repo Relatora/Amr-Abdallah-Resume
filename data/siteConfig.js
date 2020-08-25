@@ -247,7 +247,7 @@ module.exports = {
   secondary_color: '#f56f42',
   enableDarkmode: true, // If true, enables dark mode switch
   display: 'minimal-ui',
-  icon: 'src/assets/gatsby-icon.png',
+  icon: 'src/assets/resume.png',
   headerLinks: [
     {
       label: 'Home',

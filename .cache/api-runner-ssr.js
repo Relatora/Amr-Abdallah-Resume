@@ -3,7 +3,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('D:/Dev/Gatsby_Resume/Amr-Resume/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Hi! I'm Amr Abdallah!","short_name":"Hi! I'm Amr Abdallah!","start_url":"/Amr-Resume","background_color":"#ffffff","theme_color":"#25303B","display":"minimal-ui","icon":"src/assets/gatsby-icon.png","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"edf3d310d67f8284a562bc3a58c3e761"},
+      options: {"plugins":[],"name":"Hi! I'm Amr Abdallah!","short_name":"Hi! I'm Amr Abdallah!","start_url":"/Amr-Resume","background_color":"#ffffff","theme_color":"#25303B","display":"minimal-ui","icon":"src/assets/resume.png","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"0968b47b5c3493a9882790c760ffd9b6"},
     },{
       plugin: require('D:/Dev/Gatsby_Resume/Amr-Resume/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
