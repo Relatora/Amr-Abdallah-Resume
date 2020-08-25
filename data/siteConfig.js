@@ -28,11 +28,11 @@ module.exports = {
     },
     {
       name: 'CSS',
-      level: 90,
+      level: 95,
     },
     {
       name: 'Javascript',
-      level: 95,
+      level: 98,
     },
     {
       name: 'NodeJs',
@@ -40,11 +40,11 @@ module.exports = {
     },
     {
       name: 'React',
-      level: 90,
+      level: 95,
     },
     {
       name: 'Vue',
-      level: 88,
+      level: 90,
     },
     {
       name: 'Go Lang',
