@@ -19,8 +19,8 @@ module.exports = {
   githubUsername: 'Relatora',
   authorAvatar: '/images/avatar02.jpg',
   authorDescription: `<p>Developer, passionate about what I do.</p>
- <p>In 2019 I enrolled in a postgraduate degree at Lambton College CSAC program (Computer Software & Database Development) where I learned many skills and implemented what I know in projects affiliated to Lambton research center such as developing a digital signage <strong>HTML/CSS/JS</strong> compiler that takes in a <strong>JSON</strong> string and automatically downloads assets via WebSocket from the web then maps these assets regardless of dimensions or location dynamically to a full page <strong>Electron JS</strong> browser page and all of that ran on a <strong>Raspberry Pi</strong> that can be placed behind any screen for display. </p>
- <p>I currently work as a software developer at Avaros EMR for my internship where I’m doing many exciting things such as integrating Twilio SMS in the scheduler backend using <strong>Go Lang and PostgreSQL. </strong> Also worked as part of a team on developing a patient online booking frontend using <strong>ReactJS</strong> developing many components. Furthermore, we worked on troubleshooting and adding functionality to a <strong>Java</strong> based EMR solution.</p>`,
+ <p>In 2019 I enrolled in a postgraduate degree at Lambton College CSAC program (Computer Software & Database Development) where I learned many skills that I utilized in projects affiliated with Lambton research center. One of these project was a digital signage <strong>HTML/CSS/JS</strong> compiler that takes in a <strong>JSON</strong> string and automatically downloads assets via WebSocket from the web then maps these assets regardless of dimensions or location dynamically to a full page <strong>Electron JS</strong> browser page and all of that ran on a <strong>Raspberry Pi</strong> that can be placed behind any screen for display. </p>
+ <p>I currently work as a software developer at Avaros EMR where I’m doing many exciting things such as integrating Twilio SMS in the scheduler backend using <strong>Go Lang and PostgreSQL. </strong>. Worked as part of a team developing a patient online booking frontend developing frontend components in <strong>ReactJS</strong>. Furthermore, worked on troubleshooting and adding functionality to a <strong>Java</strong> based EMR solution.</p>`,
   skills: [
     {
       name: 'HTML',
@@ -82,7 +82,7 @@ module.exports = {
       },
       duration: null,
       occupation: 'Full stack Developer',
-      description: `I am part of the Corporate team, responsible for the development of: <br/>
+      description: `I am part of the team, responsible for the development of: <br/>
         <ul>
           <li>
              Patients scheduling backend using Go Lang.
@@ -94,7 +94,7 @@ module.exports = {
             Various database migrations.
           </li>
           <li>
-            Maintaining Oscar EMR by bug fixing and adding or modifying functionality.
+            Maintaining Oscar EMR which includes bug fixes and adding features.
           </li>
         </ul>`,
     },
@@ -109,7 +109,7 @@ module.exports = {
       description: `
         <ul>
           <li>
-             Created a digital signage solution for Eye Look Media. The client requested a player that takes in a JSON string containing the assets location and playlist with special rules for playing media. The assets then get's downloaded and gets diplayed according to stated locations, dimensions and rules. I implemented this solution with pure JavaScript and GSAP library.
+             Created a digital signage solution for Eye Look Media. The client requested a player that takes in a JSON string containing the assets location and playlist with special rules for playing media. The assets are then downloaded and gets displayed according to stated locations, dimensions and rules. I implemented this solution with pure JavaScript and GSAP library.
           </li>
           <li>
              Researched together with my team the market for an Amazon like business. Formulated an investment document for LinkGreen. Assessed their system for vulnerabilities.
@@ -192,7 +192,7 @@ module.exports = {
       description: `
         <ul>
           <li>
-             Developed as part of a team a SMS based banking solution for the National Bank of Egypt.
+             As part of a team Developed an SMS based banking solution for the National Bank of Egypt.
           </li>
           <li>
              Worked on an automated call center solution at Misr for Custody and Stock Depository. Team leader for developing their dynamic call center and Instructed a team to fully adapt the solution to their system .
@@ -203,7 +203,7 @@ module.exports = {
         </ul>`,
     },
   ],
-  portifolio: [
+  portfolio: [
     {
       image: '/images/Everalda_home.png',
       description: 'Everalda Git',
@@ -229,7 +229,7 @@ module.exports = {
       description: 'My Resume',
       url: 'https://github.com/Relatora/Amr-Abdallah-Resume',
     },
-    /* more portifolio items here */
+    /* more portfolio items here */
   ],
   social: {
     twitter: 'https://twitter.com/relatora',
@@ -255,7 +255,7 @@ module.exports = {
     },
     {
       label: 'Portfolio',
-      url: '/portifolio',
+      url: '/portfolio',
     },
   ],
 }
