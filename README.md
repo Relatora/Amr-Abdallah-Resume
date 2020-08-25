@@ -22,7 +22,7 @@ Note the portfolio screenshot here is just a sample. The website is surely more 
 
 ![screenshot Portfolio](./public/images/ss_portfolio.png)
 
-## Screenshot Sample portfolio dark
+## Screenshot Sample portfolio light
 
 ![screenshot Portfolio](./public/images/ss_portfolio_white.png)
 
