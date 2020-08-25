@@ -224,6 +224,11 @@ module.exports = {
       description: 'ExpoSure Android Frontend',
       url: 'https://github.com/Relatora/ExpoSure-Frontend',
     },
+    {
+      image: '/images/pw.png',
+      description: 'My Resume',
+      url: 'https://github.com/Relatora/Amr-Abdallah-Resume',
+    },
     /* more portifolio items here */
   ],
   social: {
