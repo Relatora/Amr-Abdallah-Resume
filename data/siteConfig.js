@@ -35,6 +35,14 @@ module.exports = {
       level: 98,
     },
     {
+      name: 'TypeScript',
+      level: 98,
+    },
+     {
+      name: 'Java SE/EE',
+      level: 98,
+    },
+    {
       name: 'NodeJs',
       level: 95,
     },
