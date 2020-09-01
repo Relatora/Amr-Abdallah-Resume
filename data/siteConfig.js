@@ -38,7 +38,7 @@ module.exports = {
       name: 'TypeScript',
       level: 98,
     },
-     {
+    {
       name: 'Java SE/EE',
       level: 98,
     },
@@ -213,7 +213,7 @@ module.exports = {
   ],
   portfolio: [
     {
-      image: '/images/Everalda_home.png',
+      image: '/images/everalda_closeup.png',
       description: 'Everalda Git',
       url: 'https://github.com/Relatora/Everalda',
     },
@@ -236,6 +236,11 @@ module.exports = {
       image: '/images/pw.png',
       description: 'My Resume',
       url: 'https://github.com/Relatora/Amr-Abdallah-Resume',
+    },
+    {
+      image: '/images/ss_chat.png',
+      description: 'React/TypeScript/RxJS Demo Chat App',
+      url: 'https://github.com/Relatora/Chat-Demo',
     },
     /* more portfolio items here */
   ],
