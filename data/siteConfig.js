@@ -18,9 +18,10 @@ module.exports = {
   twitterUsername: 'relatora',
   githubUsername: 'Relatora',
   authorAvatar: '/images/avatar02.jpg',
-  authorDescription: `<p>Developer, passionate about what I do.</p>
- <p>In 2019 I enrolled in a postgraduate degree at Lambton College CSAC program (Computer Software & Database Development) where I learned many skills that I utilized in projects affiliated with Lambton research center. One of these project was a digital signage <strong>HTML/CSS/JS</strong> compiler that takes in a <strong>JSON</strong> string and automatically downloads assets via WebSocket from the web then maps these assets regardless of dimensions or location dynamically to a full page <strong>Electron JS</strong> browser page and all of that ran on a <strong>Raspberry Pi</strong> that can be placed behind any screen for display. </p>
- <p>I currently work as a software developer at Avaros EMR where I’m doing many exciting things such as integrating Twilio SMS in the scheduler backend using <strong>Go Lang and PostgreSQL. </strong>. Worked as part of a team developing a patient online booking frontend developing frontend components in <strong>ReactJS</strong>. Furthermore, worked on troubleshooting and adding functionality to a <strong>Java</strong> based EMR solution.</p>`,
+  authorDescription: `<p style="text-indent: 0px">Developer, passionate about what I do.</p>
+ <p>In 2019 I enrolled in a postgraduate degree at <em>Lambton College</em> CSAC program (Computer Software & Database Development) where I learned many skills that I utilized in projects affiliated with Lambton research center. One of these project was a digital signage <strong>HTML/CSS/JS</strong> compiler that takes in a <strong>JSON</strong> string and automatically downloads assets via WebSocket from the web then maps these assets regardless of dimensions or location dynamically to a full page <strong>Electron JS</strong> browser page and all of that ran on a <strong>Raspberry Pi</strong> that can be placed behind any screen for display. </p>
+ <p>I worked as a software developer at <em>Avaros EMR</em> where I’m doing many exciting things such as integrating Twilio SMS in the scheduler backend using <strong>Go Lang and PostgreSQL. </strong>. Worked as part of a team developing a patient online booking frontend developing frontend components in <strong>ReactJS</strong>. Furthermore, worked on troubleshooting and adding functionality to a <strong>Java</strong> based EMR solution.</p>
+ <p>I'm currently working on a very exciting <strong>MERN stack</strong> project for <em>Procor</em> to manage their railcar operations.</p>`,
   skills: [
     {
       name: 'HTML',
@@ -71,24 +72,35 @@ module.exports = {
       level: 94,
     },
     {
+      name: 'Git',
+      level: 95,
+    },
+    {
       name: 'SQL (PostgreSQL, Oracle, MySQL, MongoDB, ...)',
       level: 96,
     },
-    {
-      name: 'Git',
-      level: 90,
-    },
+
     /* more skills here */
   ],
   jobs: [
     /* more jobs here */
+    {
+      company: 'Applied Research and Innovation Department Lambton College',
+      begin: {
+        month: 'Sep',
+        year: '2020',
+      },
+      duration: null,
+      occupation: 'MERN stack Developer',
+      description: `Implementing an internal system using MongoDB, Express JS, React JS, Node JS (MERN) stack solution for <strong>Procor</strong> to handle their day to day railcar operations.`,
+    },
     {
       company: 'Avaros EMR',
       begin: {
         month: 'May',
         year: '2020',
       },
-      duration: null,
+      duration: '4 months',
       occupation: 'Full stack Developer',
       description: `I am part of the team, responsible for the development of: <br/>
         <ul>
@@ -117,10 +129,10 @@ module.exports = {
       description: `
         <ul>
           <li>
-             Created a digital signage solution for Eye Look Media. The client requested a player that takes in a JSON string containing the assets location and playlist with special rules for playing media. The assets are then downloaded and gets displayed according to stated locations, dimensions and rules. I implemented this solution with pure JavaScript and GSAP library.
+             Created a digital signage solution for <strong>Eye Look Media</strong>. The client requested a digital signage player that takes in a JSON string containing the assets location and playlist with special rules for playing media. The assets are then downloaded and gets displayed according to stated locations, dimensions and rules. I implemented this solution with pure JavaScript and GSAP library.
           </li>
           <li>
-             Researched together with my team the market for an Amazon like business. Formulated an investment document for LinkGreen. Assessed their system for vulnerabilities.
+             Researched together with my team the market for <strong>OrderEase</strong> an Amazon like business. Formulated an investment document for LinkGreen. Assessed their system for vulnerabilities.
           </li>
         </ul>`,
     },
