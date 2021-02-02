@@ -21,7 +21,7 @@ module.exports = {
   authorDescription: `<p style="text-indent: 0px">Developer, passionate about what I do.</p>
  <p>In 2019 I enrolled in a postgraduate degree at <em>Lambton College</em> CSAC program (Computer Software & Database Development) where I learned many skills that I utilized in projects affiliated with Lambton research center. One of these project was a digital signage <strong>HTML/CSS/JS</strong> compiler that takes in a <strong>JSON</strong> string and automatically downloads assets via WebSocket from the web then maps these assets regardless of dimensions or location dynamically to a full page <strong>Electron JS</strong> browser page and all of that ran on a <strong>Raspberry Pi</strong> that can be placed behind any screen for display. </p>
  <p>I worked as a software developer at <em>Avaros EMR</em> where I’m doing many exciting things such as integrating Twilio SMS in the scheduler backend using <strong>Go Lang and PostgreSQL. </strong>. Worked as part of a team developing a patient online booking frontend developing frontend components in <strong>ReactJS</strong>. Furthermore, worked on troubleshooting and adding functionality to a <strong>Java</strong> based EMR solution.</p>
- <p>I'm currently working on a very exciting <strong>MERN stack</strong> project for <em>Procor</em> to manage their railcar operations.</p>`,
+ <p>I'm currently working on a very exciting <strong>MERN stack</strong> project for <em>Procor</em> to manage their railcar operations, as well as working as a <strong>Full-stack Developer</strong> at <em>Eye-Look Media</em> where I'm building with a team a digital signage management system</p>`,
   skills: [
     {
       name: 'HTML',
@@ -60,6 +60,10 @@ module.exports = {
       level: 90,
     },
     {
+      name: 'Laravel',
+      level: 90,
+    },
+    {
       name: 'Python',
       level: 93,
     },
@@ -84,6 +88,16 @@ module.exports = {
   ],
   jobs: [
     /* more jobs here */
+    {
+      company: 'Eye-Look Media',
+      begin: {
+        month: 'Nov',
+        year: '2020',
+      },
+      duration: null,
+      occupation: 'Full-stack Developer',
+      description: `Working with a team developing a digital signage solution portal that manages client’s media across their media kiosks. A client like Canadian Tire can intelligently distribute and control media displayed on their screens across their branches. We use a Laravel, VueJs, MySQL stack to deliver a highly creative platform. Developing a client access progressive web app (PWA) for communication using WebSocket together with several NodeJS services that perform various tasks such as recursive file parsing and automation.`,
+    },
     {
       company: 'Applied Research and Innovation Department Lambton College',
       begin: {
