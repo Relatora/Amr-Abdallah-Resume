@@ -237,6 +237,7 @@ module.exports = {
         </ul>`,
     },
   ],
+  // url: 'http://12.42.204.30:7251/index.html',
   portfolio: [
     {
       image: '/images/everalda_closeup.png',
@@ -246,7 +247,7 @@ module.exports = {
     {
       image: '/images/everalda_closeup.png',
       description: 'Everalda Website',
-      url: 'http://12.42.204.30:7251/index.html',
+      url: 'https://determined-saha-7f0e29.netlify.app',
     },
     {
       image: '/images/ExpoSure_backend_code.png',
