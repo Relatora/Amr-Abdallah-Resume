@@ -52,8 +52,12 @@ module.exports = {
       level: 95,
     },
     {
+      name: 'React-native',
+      level: 95,
+    },
+    {
       name: 'Vue',
-      level: 90,
+      level: 97,
     },
     {
       name: 'Go Lang',
@@ -61,7 +65,11 @@ module.exports = {
     },
     {
       name: 'Laravel',
-      level: 90,
+      level: 95,
+    },
+    {
+      name: 'php',
+      level: 95,
     },
     {
       name: 'Python',
