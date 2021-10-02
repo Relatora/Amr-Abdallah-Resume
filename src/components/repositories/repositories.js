@@ -48,10 +48,10 @@ class Repositories extends React.Component {
                       <div className="repositories__repo-date">
                         Updated: {new Date(repo.updated_at).toUTCString()}
                       </div>
-                      <div className="repositories__repo-star">
+                      {/* <div className="repositories__repo-star">
                         {repo.fork && <GoRepoForked />}
                         <GoStar /> {repo.stargazers_count}
-                      </div>
+                      </div> */}
                     </div>
                     <hr />
                   </React.Fragment>

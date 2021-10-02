@@ -1,5 +1,5 @@
 import loadable from '@loadable/component'
-import { withPrefix } from "gatsby"
+import { withPrefix } from 'gatsby'
 import React from 'react'
 import { Col, Container, Row } from 'react-awesome-styled-grid'
 import styled, { css } from 'styled-components'
@@ -16,51 +16,83 @@ const Image = styled.img`
   object-fit: cover;
   object-position: center center;
   border-radius: 10px;
-  box-shadow: 24px 47px 79px -21px rgba(0,0,0,0.51);
+  box-shadow: 24px 47px 79px -21px rgba(0, 0, 0, 0.51);
 `
 
 const JobCard = styled.a`
   text-decoration: none;
   color: inherit;
 
-  ${({ href }) => href && css`
-    &:hover ${Image}{
-      transition: transform .5s;
-      transform: translateY(-5px);
-    }
-  `}
+  ${({ href }) =>
+    href &&
+    css`
+      &:hover ${Image} {
+        transition: transform 0.5s;
+        transform: translateY(-5px);
+      }
+    `}
 `
 
 const Portfolio = ({ className, location }) => {
-  const title = "Portfolio"
+  const title = 'Portfolio'
   const { keywords, portfolio } = siteConfig
   return (
     <Layout location={location}>
-      <SEO
-        title={title}
-        keywords={keywords}
-      />
+      <SEO title={title} keywords={keywords} />
 
-      <Hero
-        heroImg={withPrefix('/images/pierre-chatel-innocenti-W5INoOK-5eI-unsplash.jpeg')}
-        title={title}
-      />
+      <Hero heroImg={withPrefix('/images/woman.jpg')} title={title} />
 
       <Wrapper className={className}>
         <Container className="page-content" fluid>
           <Row>
-            {portfolio.map(job => (
-              <Col
-                key={job.description}
-                align="center"
+            <Col>
+              <h4
+                style={{
+                  width: '100%',
+                  textAlign: 'center',
+                  marginBottom: '2em',
+                }}
               >
+                <span
+                  style={{
+                    color: 'black',
+                    background: 'yellow',
+                    padding: '3px',
+                    borderRadius: '5px',
+                    border: '1px solid black',
+                  }}
+                >
+                  FYI
+                </span>
+                &nbsp; The Heavy Duty (Impressive) Work is in Production
+              </h4>
+            </Col>
+          </Row>
+          <Row>
+            {portfolio.map(job => (
+              <Col key={job.description} align="center">
                 <JobCard
-                  as={job.url ? "a" : "div"}
+                  as={job.url ? 'a' : 'div'}
                   href={job.url}
                   target="_blank"
+                  style={{
+                    paddingBottom: '1.5em',
+                  }}
                 >
-                  <Image src={withPrefix(job.image)} />
-                  <p>{job.description}</p>
+                  <Image
+                    style={{ minHeight: '300px' }}
+                    src={withPrefix(job.image)}
+                  />
+                  <p
+                    style={{
+                      maxWidth: '190px',
+                      wordBreak: 'break-word',
+                      textAlign: 'center',
+                      hyphens: 'none',
+                    }}
+                  >
+                    {job.description}
+                  </p>
                 </JobCard>
               </Col>
             ))}
@@ -76,5 +108,4 @@ export default styled(Portfolio)`
     max-width: 100%;
     margin-bottom: 40px;
   }
-
 `

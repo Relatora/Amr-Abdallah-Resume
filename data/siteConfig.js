@@ -13,27 +13,42 @@ module.exports = {
     'java',
     'spring boot',
     'python',
+    'flutter',
   ],
   authorName: 'Amr Abdallah',
   twitterUsername: 'relatora',
   githubUsername: 'Relatora',
   authorAvatar: '/images/avatar02.jpg',
-  authorDescription: `<p style="text-indent: 0px">Developer, passionate about what I do.</p>
- <p>In 2019 I enrolled in a postgraduate degree at <em>Lambton College</em> CSAC program (Computer Software & Database Development) where I learned many skills that I utilized in projects affiliated with Lambton research center. One of these project was a digital signage <strong>HTML/CSS/JS</strong> compiler that takes in a <strong>JSON</strong> string and automatically downloads assets via WebSocket from the web then maps these assets regardless of dimensions or location dynamically to a full page <strong>Electron JS</strong> browser page and all of that ran on a <strong>Raspberry Pi</strong> that can be placed behind any screen for display. </p>
- <p>I worked as a software developer at <em>Avaros EMR</em> where I’m doing many exciting things such as integrating Twilio SMS in the scheduler backend using <strong>Go Lang and PostgreSQL. </strong>. Worked as part of a team developing a patient online booking frontend developing frontend components in <strong>ReactJS</strong>. Furthermore, worked on troubleshooting and adding functionality to a <strong>Java</strong> based EMR solution.</p>
- <p>I'm currently working on a very exciting <strong>MERN stack</strong> project for <em>Procor</em> to manage their railcar operations, as well as working as a <strong>Full-stack Developer</strong> at <em>Eye-Look Media</em> where I'm building with a team a digital signage management system</p>`,
+  authorDescription: `<p style="text-indent: 0px">Full-stack developer, passionate about what I do.</p>
+  <p>IT Project Manager and full-stack developer at Industrial Web Apps. Besides managing the team I take absolute pleasure in
+  augmenting and reshaping SHORE into a more powerful platform. Working closely with management to bring all of IWA's products to
+  their full potential.</p>
+ <p>I worked as a software developer at <em>Avaros EMR</em> 
+ where I’m doing many exciting things such as integrating Twilio SMS in the scheduler backend using 
+ <strong>Go Lang and PostgreSQL. </strong>. Worked as part of a team developing a patient online booking frontend developing 
+ frontend components in <strong>ReactJS</strong>. Furthermore, worked on troubleshooting and adding functionality to a 
+ <strong>Java</strong> based EMR solution.</p>
+ <p>Developed on a very exciting <strong>MERN stack</strong> 
+ project for <em>Procor</em> to manage their railcar operations, as well as working as a <strong>Full-stack Developer</strong> 
+ at <em>Eye-Look Media</em> where I'm building with a team a digital signage management system</p>
+ <p>In 2019 I enrolled in a postgraduate degree at <em>Lambton College</em> CSAC program (Computer Software & Database Development) 
+ where I learned many skills that I utilized in projects affiliated with Lambton research center. One of these project 
+ was a digital signage <strong>HTML/CSS/JS</strong> compiler that takes in via <em>Express</em> a payload and automatically 
+ downloads assets via WebSocket from the web then maps these assets regardless of dimensions or location dynamically to a 
+ full screen <strong>Electron JS</strong> browser page on top of a <strong>Raspberry Pi</strong> that can 
+ be placed behind any screen for display. </p>`,
   skills: [
     {
       name: 'HTML',
-      level: 98,
+      level: 100,
     },
     {
       name: 'CSS',
-      level: 95,
+      level: 98,
     },
     {
       name: 'Javascript',
-      level: 98,
+      level: 100,
     },
     {
       name: 'TypeScript',
@@ -45,11 +60,11 @@ module.exports = {
     },
     {
       name: 'NodeJs',
-      level: 95,
+      level: 98,
     },
     {
       name: 'React',
-      level: 95,
+      level: 99,
     },
     {
       name: 'React-native',
@@ -57,23 +72,23 @@ module.exports = {
     },
     {
       name: 'Vue',
-      level: 97,
+      level: 99,
     },
     {
       name: 'Go Lang',
-      level: 90,
+      level: 95,
     },
     {
       name: 'Laravel',
-      level: 95,
+      level: 99,
     },
     {
       name: 'php',
-      level: 95,
+      level: 99,
     },
     {
       name: 'Python',
-      level: 93,
+      level: 97,
     },
     {
       name: 'C# MVC',
@@ -89,7 +104,11 @@ module.exports = {
     },
     {
       name: 'SQL (PostgreSQL, Oracle, MySQL, MongoDB, ...)',
-      level: 96,
+      level: 100,
+    },
+    {
+      name: 'Flutter',
+      level: 95,
     },
 
     /* more skills here */
@@ -97,27 +116,51 @@ module.exports = {
   jobs: [
     /* more jobs here */
     {
-      company: 'Eye-Look Media',
+      company: 'Industrial Web Apps - contract',
+      begin: {
+        month: 'Apr',
+        year: '2020',
+      },
+      duration: null,
+      occupation: 'IT Project Manager and Full-stack Developer',
+      description: `Duties<br/>
+• Coordinate teams to accomplish projects of varying size and complexity.<br/>
+• Organize the team, time and resources to make sure the projects meet stated requirements and are
+completed on time.<br/>
+• Provide direction to the project team for all phases of development in the project lifecycle.<br/>
+• Supervise the timely completion of software projects, providing technical expertise and leadership abilities
+to resolve issues.<br/>
+• Work proactively to identify obstacles within the project teams and work creatively to propose solutions.<br/>
+• Lend experience and guidance to project conception and feasibility analyses.<br/>
+• Maintain backlog for development projects and prioritize existing and incoming tasks.<br/>
+• Work closely with Software Development team and Deployment team to deliver simultaneous projects if
+needed.<br/>
+• Port a VB6 Decision Support System(DSS) application to SHORE which is a React/Redux/Meteor/MongoDb application.<br/>
+• Work on various tickets in SHORE development itself.<br/>`,
+    },
+    {
+      company: 'Eye-Look Media - contract',
       begin: {
         month: 'Nov',
         year: '2020',
       },
-      duration: null,
+      duration: '6 months',
       occupation: 'Full-stack Developer',
-      description: `Working with a team developing a digital signage solution portal that manages client’s media across their media kiosks. A client like Canadian Tire can intelligently distribute and control media displayed on their screens across their branches. We use a Laravel, VueJs, MySQL stack to deliver a highly creative platform. Developing a client access progressive web app (PWA) for communication using WebSocket together with several NodeJS services that perform various tasks such as recursive file parsing and automation.`,
+      description: `I had the pleasure to work with a team developing a digital signage solution portal that manages client’s media across their media kiosks. A client like Canadian Tire can intelligently distribute and control media displayed on their screens across their branches. We use a Laravel, VueJs, MySQL stack to deliver a highly creative platform. Developing a client access progressive web app (PWA) for communication using WebSocket together with several NodeJS services that perform various tasks such as recursive file parsing and automation.`,
     },
     {
-      company: 'Applied Research and Innovation Department Lambton College',
+      company:
+        'Applied Research and Innovation Department Lambton College - Contract',
       begin: {
         month: 'Sep',
         year: '2020',
       },
-      duration: null,
+      duration: '6 months',
       occupation: 'MERN stack Developer',
       description: `Implementing an internal system using MongoDB, Express JS, React JS, Node JS (MERN) stack solution for <strong>Procor</strong> to handle their day to day railcar operations.`,
     },
     {
-      company: 'Avaros EMR',
+      company: 'Avaros EMR - coop for CSAC Program at Lambton College ',
       begin: {
         month: 'May',
         year: '2020',
@@ -159,7 +202,7 @@ module.exports = {
         </ul>`,
     },
     {
-      company: 'Tertec',
+      company: 'Tertec - contract',
       begin: {
         month: 'june',
         year: '2019',
