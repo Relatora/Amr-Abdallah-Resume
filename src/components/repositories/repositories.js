@@ -1,7 +1,8 @@
 import React from "react";
 import jsonFetch from "simple-json-fetch";
 import styled from 'styled-components'
-import { GoStar, GoRepoForked, GoLinkExternal } from 'react-icons/go'
+import {  GoLinkExternal } from 'react-icons/go'
+// import { GoStar, GoRepoForked, GoLinkExternal } from 'react-icons/go'
 import siteConfig from '../../../data/siteConfig'
 
 import Loader from '../loader'
